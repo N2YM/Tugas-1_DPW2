@@ -10,14 +10,14 @@ class Kucing extends Hewan {
         return "Meoong";
     }
 }
-$momo = new Kucing;
-$momo->jumlah_kaki = 4;
-echo "Momo Adalah Kucing <br>";
+$franco = new Kucing;
+$franco->jumlah_kaki = 4;
+echo "Franco Adalah Kucing <br>";
 echo "Punya kaki Sebanyak : ";
-echo $momo->jumlah_kaki."<br>";
-echo $momo->bisa_terbang."<br>";
+echo $franco->jumlah_kaki."<br>";
+echo $franco->bisa_terbang."<br>";
 echo "Suaranya : ";
-echo $momo->bersuara()."<br>";
+echo $franco->bersuara()."<br>";
 
 echo "<hr>";  // <<============================================>>
 
@@ -28,14 +28,14 @@ class Anjing extends Hewan {
         return "Guuk guuk";
     }
 }
-$doggo = new Anjing;
-$doggo->jumlah_kaki = 4;
-echo "Doggo Adalah Anjing <br>";
+$diggi = new Anjing;
+$diggi->jumlah_kaki = 4;
+echo "Diggi Adalah Anjing <br>";
 echo "Punya kaki Sebanyak : ";
-echo $doggo->jumlah_kaki."<br>";
-echo $doggo->bisa_terbang."<br>";
+echo $diggi->jumlah_kaki."<br>";
+echo $diggi->bisa_terbang."<br>";
 echo "Suaranya : ";
-echo $doggo->bersuara()."<br>";
+echo $diggi->bersuara()."<br>";
 
 echo "<hr>";  // <<============================================>>
 
@@ -46,14 +46,14 @@ class Elang extends Hewan {
         return "Miip miip";
     }
 }
-$zya = new Elang;
-$zya->jumlah_kaki = 2;
-echo "Zya Adalah Elang <br>";
+$zargus = new Elang;
+$zargus->jumlah_kaki = 2;
+echo "Zargus Adalah Elang <br>";
 echo "Punya kaki Sebanyak : ";
-echo $zya->jumlah_kaki."<br>";
-echo $zya->bisa_terbang."<br>";
+echo $zargus->jumlah_kaki."<br>";
+echo $zargus->bisa_terbang."<br>";
 echo "Suaranya : ";
-echo $zya->bersuara()."<br>";
+echo $zargus->bersuara()."<br>";
 
 echo "<hr>";  // <<============================================>>
 
